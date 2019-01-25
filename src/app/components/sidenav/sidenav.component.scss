@@ -1,0 +1,117 @@
+.sidenav__container{
+  background: gray;
+  width: 10%;
+  height: 100%;
+  display: inline-block;
+}
+
+.sidenav-content-main__wrap{
+  width: 90%;
+  height: 100%;
+  display: inline-block;
+}
+
+.aboutSection{
+  background: black;
+}
+
+.partnersSection{
+  background: blue;
+}
+
+.contactSection{
+  background: red;
+}
+
+.sidenav-content-buttons__wrap{
+  height: 57%;
+  position: absolute;
+  bottom: 0;
+  width: 9%;
+}
+
+.sidenav-content__button-radio{
+  display: block;
+  float: right;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+// Small
+@media screen and (min-width: 480px){
+
+
+}
+
+// Medium
+@media screen and (min-width: 720px){
+  .sidenav__container{
+    width: 8%;
+  }
+
+  .test{
+    width: 92%;
+  }
+
+  .sidenav-content-buttons__wrap{
+    width: 7%;
+  }
+
+  .sidenav-content__button-radio{
+    width: 35px;
+    height: 35px;
+    margin-bottom: 20px;
+  }
+
+}
+
+// Large
+@media screen and (min-width: 960px){
+
+  .sidenav__container{
+    width: 10%;
+  }
+
+  .sidenav-content__button-radio{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 25px;
+  }
+
+}
+
+// V Large
+@media screen and (min-width: 1200px){
+
+  .sidenav__container{
+    width: 5%;
+  }
+
+  .sidenav-content-buttons__wrap{
+    width: 5.5%;
+  }
+
+  .sidenav-content__button-radio{
+    width: 45px;
+    height: 45px;
+    margin: 0 20px 25px 20px;
+  }
+}
+
+// Super
+
+@media screen and (min-width: 2200px){
+
+  .sidenav-content-buttons__wrap{
+    width: 5%;
+  }
+
+  .sidenav-content__button-radio{
+    width: 60px;
+    height: 60px;
+  }
+}
+
+
+

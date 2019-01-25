@@ -1,0 +1,16 @@
+<div class="sidenav__container">
+  <div class="sidenav-content-buttons__wrap">
+    <input
+      *ngFor="let section of sections"
+      type="radio"
+      class="sidenav-content__button-radio"
+      [(ngModel)]="radioSelected"
+      name="section"
+      value="{{section}}"
+      (change)="sectionChange(section)"
+    />
+  </div>
+</div>
+<div class="sidenav-content-main__wrap" [ngClass]="testClass">
+
+</div>
